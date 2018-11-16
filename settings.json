@@ -1,5 +1,6 @@
 {
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "files.associations": {
         "*.h": "c",
         "*.hpp": "c"

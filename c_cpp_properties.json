@@ -3,9 +3,9 @@
         {
             "name": "ESP32",
             "includePath": [
-                "${workspaceRoot}",
-                "${IDF_PATH}/components",
-                "${XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include"
+                "${workspaceRoot}/**",
+                "${IDF_PATH}/components/**",
+                "${XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/**"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
@@ -13,11 +13,13 @@
                 "path": [
                     "${workspaceRoot}",
                     "${IDF_PATH}/components",
-                    "${XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include"
+                    "${XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf"
                 ]
             },
-            "intelliSenseMode": "clang-x64"
+            "compilerPath": "${XTENSA_ESP32_ELF_PATH}/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
-    "version": 3
+    "version": 4
 }
