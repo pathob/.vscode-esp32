@@ -6,7 +6,7 @@ This is a simple but nicely working .vscode configuration for your ESP-IDF proje
 In the meantime, this configuration was not working for me anymore but this was probably due to an update of the [vscode-cpptools](https://github.com/Microsoft/vscode-cpptools)?!
 
 Setup
-=====
+-----
 
 All you have to do is to add this repository as a Git submodule to your project:
 
@@ -32,7 +32,7 @@ export PATH=${PATH}:${XTENSA_ESP32_ELF_PATH}/bin
 ```
 
 Issues / Future Work
-====================
+--------------------
 
 It should be possible to improve the includes by providing a `compile_commands.json` file as described here:
 [How to specify the include paths?](https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/Getting%20started%20with%20IntelliSense%20configuration.md#how-to-specify-the-include-paths)
